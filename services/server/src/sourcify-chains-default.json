@@ -2321,5 +2321,14 @@
         "url": "https://explorer.superseed.xyz"
       }
     }
+  },
+  "80069": {
+    "sourcifyName": "Berachain Bepolia",
+    "supported": true,
+    "fetchContractCreationTxUsing": {
+      "routescanApi": {
+        "type": "mainnet"
+      }
+    }
   }
 }

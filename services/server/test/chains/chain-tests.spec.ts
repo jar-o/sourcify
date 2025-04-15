@@ -1829,6 +1829,14 @@ describe("Test Supported Chains", function () {
     "shared/",
   );
 
+  // Berachain Bepolia
+  verifyContract(
+    "0x152598809FB59db55cA76f89a192Fb23555531D8",
+    "80069",
+    "Berachain Bepolia",
+    "shared/",
+  );
+
   it("should have included Etherscan contracts for all testedChains having etherscanAPI", function (done) {
     const missingEtherscanTests: ChainApiResponse[] = [];
     supportedChains
